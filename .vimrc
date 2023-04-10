@@ -143,3 +143,10 @@ call plug#end()
 let g:airline_theme='jellybeans'
 "let g:airline_powerline_fonts = 1
 set scrolloff=999
+if has("autocmd")
+  " When editing a file, always jump to the last cursor position
+  autocmd BufReadPost *
+  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \   exe "normal! g'\"" |
+  \ endif
+endif
