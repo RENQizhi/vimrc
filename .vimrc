@@ -79,7 +79,7 @@ set cindent shiftwidth=6
 colorscheme onedark
 "set tags=~/home/Ren/ctags-5.8/tags
 "set autochdir
-let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
+"let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Show_One_File = 1
 let Tlist_Show_LineNumbers=1
 let Tlist_Exit_OnlyWindow = 1
