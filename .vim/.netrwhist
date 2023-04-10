@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/Ren/Particle_Ex/new_code_10.15/12.13report/221228_for_LSMPS/LA/03.30/LA/2CPU/AF_yuan'
+let g:netrw_dirhist_1='/home/Ren/Particle_Ex/new_code_10.15/12.13report/221228_for_LSMPS/LA/03.30/-y/2CPU/up_down'
